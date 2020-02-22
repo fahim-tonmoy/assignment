@@ -1,0 +1,96 @@
+body{
+    height: 0;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+}
+.pink-high{
+    color: rgb(206, 36, 121);
+}
+section{
+    width: 100%;
+}
+
+.half-width{
+    width: 35%;
+    margin: 5%;
+    padding: 20px;
+    float: left;
+}
+.half-width img{
+    width: 100%;    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(206, 36, 121),rgb(216, 140, 178));
+    background-color: rgb(206, 36, 121);;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.mid-half-width{
+    width: 35%;
+    margin: 5%;
+    padding: 20px;
+    float: left;
+}
+.mid-half-width img{
+    width: 100%;
+}
+.second-top-banner{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.work-area{
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+
+}
+.work-half-width{
+    width: 30%;
+    margin: -1%;
+    padding-left: 70px;
+    float: left;
+}
+.work-half-width img{
+    width: 85%;
+    padding: 15px;
+}
+.client-area{
+    width: 80%;
+    margin: 5%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.message{
+    background-color: rgb(206, 36, 121);;
+    padding: 50px 150px;
+    border-radius: 5px;
+    color: white;
+   
+}
